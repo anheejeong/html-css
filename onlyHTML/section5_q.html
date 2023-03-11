@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Registeration</title>
+</head>
+
+<body>
+    <h1>Race Registeration!</h1>
+    <form action="">
+        <p>
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" required>
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" required>
+        </p>
+        <p>
+            <label for="race">Select a Race:</label>
+            <br>
+            <input type="radio" id="fivek" name="race" value="fivek">
+            <label for="fivek">Fun Run 5k</label>
+            <br>
+            <input type="radio" id="half" name="race" value="half">
+            <label for="half">Half Marathon</label>
+            <br>
+            <input type="radio" id="full" name="race" value="full">
+            <label for="full">Full Marathon</label>
+        </p>
+        <p>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+        </p>
+        <p>
+            <label for="age">Select Age Group</label>
+            <select name="age" id="age">
+                <option value="under18">under 18</option>
+                <option value="18-30">18-30</option>
+                <option value="30-50">30-50</option>
+                <option value="50+">50+</option>
+            </select>
+        </p>
+        <button>Register!</button>
+    </form>
+</body>
+
+</html>
+
+<!-- http://127.0.0.1:5500/section5_q.html?firstname=d&lastname=d&race=fivek&email=d%40d&password=d&age=under18 -->
